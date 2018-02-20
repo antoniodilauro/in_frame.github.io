@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js drag and drop</title>
+	<style type="text/css">
+	
+	*
+		{
+			
+			margin: 0px;
+			padding: 0px;
+			}
+			.dragzone,.dropzone{
+				height: 400px;
+				width: 40%;
+				border: 2px solid black;
+				float: left; 
+				margin-top: 150px;
+				margin-left: 7%;
+		}
+			ul{
+				list-style-type: none;
+					
+				
+				}
+		#bambinodietro{
+			background-image:url(../images/scenografia/bambino_1.png);
+	width: 200px;
+	height: 200px;
+	margin-left: 2px;
+	background-size: cover;
+
+		}
+	
+	</style>
+</head>
+
+<body>
+	<input 
+	<div class="dragzone">
+		<div id="bambinodietro"><img src="../images/scenografia/bambino_1.png" id="dragelement" height="200px" ondragstart="dragStart(event)"></div>
+		<img src="../images/scenografia/uomo_seduto_1.png" id="dragelement_1" height="200px" ondragstart="dragStart(event)">
+	
+	<div class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<script type="text/javascript" src="../js/dragdrop.js"></script>
+</body>
+</html>

@@ -1,0 +1,1274 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+padding: 0;
+margin: 0;
+	}
+nav{
+width: 100%;
+position: fixed;
+top:0;
+left: 0;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	position: relative;
+}
+nav ul li:hover{
+}
+nav ul ul{
+	display: none;
+	left: 0;
+	position: absolute;
+	top:100%;
+}
+nav ul li:hover > ul {
+	display: block;
+	
+}
+nav ul ul ul{
+	margin-left: 100%;
+	top:0px;
+	position: absolute;
+}
+#icona_scenografia{
+	background-image: url(../images/icone/icona_oggetti_scena.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#icona_scenografia:hover{
+	background-image: url(../images/icone/icona_oggetti_scena.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_frame{
+	background-image: url(../images/icone/icona_frame.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_frame:hover{
+	background-image: url(../images/icone/icona_frame.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_luce{
+	background-image: url(../images/icone/icona_luce.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_luce:hover{
+	background-image: url(../images/icone/icona_luce.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_luce_nat{
+	background-image: url(../images/icone/icona_luce_nat.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_luce_nat:hover{
+	background-image: url(../images/icone/icona_luce_nat.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_luce_art{
+	background-image: url(../images/icone/icona_luce_art.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_luce_art:hover{
+	background-image: url(../images/icone/icona_luce_art.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_device{
+	background-image: url(../images/icone/icona_device.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_device:hover{
+	background-image: url(../images/icone/icona_device.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_cubo{
+	background-image: url(../images/icone/icona_cubo.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_cubo:hover{
+	background-image: url(../images/icone/icona_cubo.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_sfera{
+	background-image: url(../images/icone/icona_sfera.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_sfera:hover{
+	background-image: url(../images/icone/icona_sfera.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_cilindro{
+	background-image: url(../images/icone/icona_cilindro.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	
+	}
+#icona_cilindro:hover{
+	background-image: url(../images/icone/icona_cilindro.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_mobili{
+	background-image: url(../images/icone/icona_mobili.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+	#icona_mobili:hover{
+	background-image: url(../images/icone/icona_mobili.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#icona_manichini{
+	background-image: url(../images/icone/icona_manichini.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+	#icona_manichini:hover{
+	background-image: url(../images/icone/icona_manichini.gif);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;	
+	}
+#logo{
+	background-image: url(../images/icone/icona_logo_2.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#logo:hover{
+	background-image: url(../images/icone/icona_logo_1.png);
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+body {
+	background-color: lightgray;
+	
+}
+#gabbia_device{
+	float: left;
+	margin-top: 4px;
+	width: 700px;
+	height: 700px;
+	background-color: #737A82;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	}
+#contenuto_gabbia_device{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: absolute;
+	}
+
+#tela_pro_1{
+	background-image:url(../images/device/tela_pro_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#tela_pro_1:hover{
+	background-image:url(../images/device/tela_pro_1_kelly.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#tela_pro_2{
+	background-image:url(../images/device/tela_pro_2_b.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#tela_pro_2:hover{
+	background-image:url(../images/device/tela_pro_2_b_kelly.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#tela_pro_3{
+	background-image:url(../images/device/tela_pro_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#tela_pro_3:hover{
+	background-image:url(../images/device/tela_pro_3_kelly.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}	
+#televisore_1{
+	background-image:url(../images/device/televisore_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_1:hover{
+	transform:  scale(1.1);
+	}	
+#televisore_2{
+	background-image:url(../images/device/televisore_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_2:hover{
+	transform:  scale(1.1);
+	}	
+#televisore_3{
+	background-image:url(../images/device/televisore_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_3:hover{
+	transform:  scale(1.1);
+	}
+#televisore_4{
+	background-image:url(../images/device/televisore_4.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_4:hover{
+	transform:  scale(1.1);
+	}	
+#televisore_5{
+	background-image:url(../images/device/televisore_5.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_5:hover{
+	transform:  scale(1.1);
+	}	
+#televisore_6{
+	background-image:url(../images/device/televisore_6.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#televisore_6:hover{
+	transform:  scale(1.1);
+	}	
+#gabbia_luci_nat{
+	float: left;
+	margin-top: 4px;
+	width: 700px;
+	height: 700px;
+	background-color: #737A82;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	}
+#contenuto_gabbia_luci_nat{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: absolute;
+	}
+#candela_1{
+	background-image:url(../images/luci/candela_off_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candela_1:hover{
+	background-image:url(../images/luci/candela_on_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#candela_2{
+	background-image:url(../images/luci/candela_off_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candela_2:hover{
+	background-image:url(../images/luci/candela_on_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#candela_3{
+	background-image:url(../images/luci/candela_off_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candela_3:hover{
+	background-image:url(../images/luci/candela_on_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#candelabro_1{
+	background-image:url(../images/luci/candelabro_off_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candelabro_1:hover{
+	background-image:url(../images/luci/candelabro_on_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#candelabro_2{
+	background-image:url(../images/luci/candelabro_0ff_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candelabro_2:hover{
+	background-image:url(../images/luci/candelabro_on_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#candelabro_3{
+	background-image:url(../images/luci/candelabro_off_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#candelabro_3:hover{
+	background-image:url(../images/luci/candelabro_on_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#nuvoloso{
+	background-image:url(../images/luci/nuvoloso.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#nuvoloso:hover{
+	transform:  scale(1.1);
+	}	
+#chiaro_luna{
+	background-image:url(../images/luci/chiaro_luna.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#chiaro_luna:hover{
+	transform:  scale(1.1);
+	}	
+#sole{
+	background-image:url(../images/luci/sole.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sole:hover{
+	transform:  scale(1.1);
+	}	
+#gabbia_luci_art{
+	float: left;
+	margin-top: 4px;
+	width: 700px;
+	height: 700px;
+	background-color: #737A82;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	z-index: 10;
+	}
+#contenuto_gabbia_luci_art{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: absolute;
+	}
+#nero{
+	background-image:url(../images/luci/nero.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#nero:hover{
+	transform:  scale(1.1);
+	}	
+#bianco{
+	background-image:url(../images/luci/bianco.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#bianco:hover{
+	transform:  scale(1.1);
+	}
+#arcobaleno{
+	background-image:url(../images/luci/arcobaleno.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#arcobaleno:hover{
+	transform:  scale(1.1);
+	}
+#faretto_1{
+	background-image:url(../images/luci/faretto_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_1:hover{
+	background-image:url(../images/luci/faretto_1_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_2{
+	background-image:url(../images/luci/faretto_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_2:hover{
+	background-image:url(../images/luci/faretto_2_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_3{
+	background-image:url(../images/luci/faretto_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_3:hover{
+	background-image:url(../images/luci/faretto_3_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_4{
+	background-image:url(../images/luci/faretto_4.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_4:hover{
+	background-image:url(../images/luci/faretto_4_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_5{
+	background-image:url(../images/luci/faretto_5.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_5:hover{
+	background-image:url(../images/luci/faretto_5_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_6{
+	background-image:url(../images/luci/faretto_6.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#faretto_6:hover{
+	background-image:url(../images/luci/faretto_6_canova.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#gabbia_manichini{
+	float: left;
+	margin-top: 4px;
+	width: 700px;
+	height: 700px;
+	background-color: #737A82;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	z-index: 10;
+	}
+#contenuto_gabbia_manichini{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: absolute;
+	}
+#uomo_seduto_1{
+	background-image:url(../images/scenografia/uomo_seduto_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#uomo_seduto_1:hover{
+	background-image:url(../images/scenografia/uomo_seduto_1.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#uomo_seduto_2{
+	background-image:url(../images/scenografia/uomo_seduto_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#uomo_seduto_2:hover{
+	background-image:url(../images/scenografia/uomo_seduto_2.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#donna_seduta_1{
+	background-image:url(../images/scenografia/donna_seduta_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#donna_seduta_1:hover{
+	background-image:url(../images/scenografia/donna_seduta_1.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#donna_seduta_2{
+	background-image:url(../images/scenografia/donna_seduta_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#donna_seduta_2:hover{
+	background-image:url(../images/scenografia/donna_seduta_2.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#uomo_eretto_1{
+	background-image:url(../images/scenografia/uomo_eretto_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#uomo_eretto_1:hover{
+	background-image:url(../images/scenografia/uomo_eretto_1.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#uomo_eretto_2{
+	background-image:url(../images/scenografia/uomo_eretto_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#uomo_eretto_2:hover{
+	background-image:url(../images/scenografia/uomo_eretto_2.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#donna_eretta_1{
+	background-image:url(../images/scenografia/donna_eretta_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#donna_eretta_1:hover{
+	background-image:url(../images/scenografia/donna_eretta_1.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#donna_eretta_2{
+	background-image:url(../images/scenografia/donna_eretta_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#donna_eretta_2:hover{
+	background-image:url(../images/scenografia/donna_eretta_2.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#bambino_1{
+	background-image:url(../images/scenografia/bambino_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	}
+#bambino_1:hover{
+	background-image:url(../images/scenografia/bambino_1.gif);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	transform:  scale(1.1);
+	}
+#gabbia_mobili{
+	float: left;
+	margin-top: 4px;
+	width: 1200px;
+	height: 700px;
+	background-color: #737A82;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	z-index: 10;
+	}
+#contenuto_gabbia_mobili{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: absolute;
+	}
+#base_1{
+	background-image:url(../images/scenografia/base_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_1:hover{
+	transform:  scale(1.1);
+	}	
+#base_2{
+	background-image:url(../images/scenografia/base_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_2:hover{
+	transform:  scale(1.1);
+	}
+#base_3{
+	background-image:url(../images/scenografia/base_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_3:hover{
+	transform:  scale(1.1);
+	}	
+#base_4{
+	background-image:url(../images/scenografia/base_4.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_4:hover{
+	transform:  scale(1.1);
+	}	
+#base_5{
+	background-image:url(../images/scenografia/base_5.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_5:hover{
+	transform:  scale(1.1);
+	}	
+#base_6{
+	background-image:url(../images/scenografia/base_6.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_6:hover{
+	transform:  scale(1.1);
+	}	
+#base_7{
+	background-image:url(../images/scenografia/base_7.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_7:hover{
+	transform:  scale(1.1);
+	}	
+#base_8{
+	background-image:url(../images/scenografia/base_8.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_8:hover{
+	transform:  scale(1.1);
+	}	
+#base_9{
+	background-image:url(../images/scenografia/base_9.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#base_9:hover{
+	transform:  scale(1.1);
+	}	
+#sedia_1{
+	background-image:url(../images/scenografia/sedia_1.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_1:hover{
+	transform:  scale(1.1);
+	}	
+#sedia_2{
+	background-image:url(../images/scenografia/sedia_2.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_2:hover{
+	transform:  scale(1.1);
+	}
+#sedia_3{
+	background-image:url(../images/scenografia/sedia_3.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_3:hover{
+	transform:  scale(1.1);
+	}
+#sedia_4{
+	background-image:url(../images/scenografia/sedia_4.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_4:hover{
+	transform:  scale(1.1);
+	}
+#sedia_5{
+	background-image:url(../images/scenografia/sedia_5.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_5:hover{
+	transform:  scale(1.1);
+	}
+#sedia_6{
+	background-image:url(../images/scenografia/sedia_6.png);
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 40px;
+	font-size: 15px;
+	margin-left: 2px;
+	background-size: cover;
+	
+	}
+#sedia_6:hover{
+	transform:  scale(1.1);
+	}
+#contenitore_3d{
+	width: 1024px;
+	height: 819px;
+	border-style: solid;
+	z-index: -2;
+	-webkit-box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px;
+	background-image: url(../images/3d/sfondo_3d.jpg);
+	position: relative;
+	float: right;
+	
+}
